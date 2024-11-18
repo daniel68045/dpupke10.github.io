@@ -1,0 +1,41 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.content {
+    text-align: center;
+}
+
+.content h1 {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.content nav {
+    margin: 20px 0;
+}
+
+.content nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 18px;
+}
+
+.content nav a:hover {
+    text-decoration: underline;
+}
+
+.content p {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
