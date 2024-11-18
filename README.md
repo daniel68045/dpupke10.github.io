@@ -1,1 +1,1 @@
-[Personal Website](dpupke10.site)
+[Personal Website](https://dpupke10.site)
