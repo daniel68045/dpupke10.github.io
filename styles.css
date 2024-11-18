@@ -26,7 +26,7 @@
 .content nav a {
     margin: 0 15px;
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
     font-size: 28px;
 }
 
@@ -35,7 +35,9 @@
 }
 
 .content p {
-    margin-top: 20px;
-    font-size: 28px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
 }
-
