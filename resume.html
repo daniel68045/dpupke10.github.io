@@ -4,31 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f4f4f4;
+        }
+        embed {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        .download-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            z-index: 100;
+            padding: 10px 15px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .download-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
-    <div class="content">
-        <h1>My Resume</h1>
-        <embed
-            src="assets/Resume - Daniel Pupke.pdf"
-            type="application/pdf"
-            width="1000px"
-            height="1200px"
-            style="border: 1px solid #ccc;">
-        
-        <!-- Add the Download Button -->
-        <p>
-            <a href="assets/Resume - Daniel Pupke.pdf" download style="display: inline-block; margin-top: 20px; padding: 10px 15px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px;">
-                Download Resume
-            </a>
-        </p>
+    <!-- Fullscreen PDF Viewer -->
+    <embed src="assets/Resume - Daniel Pupke.pdf" type="application/pdf">
 
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="projects.html">Projects</a>
-        </nav>
-    </div>
+    <!-- Download Button -->
+    <a href="assets/Resume - Daniel Pupke.pdf" download class="download-button">
+        Download Resume
+    </a>
 </body>
 </html>
 
