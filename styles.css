@@ -1,43 +1,32 @@
-    body {
-    font-family: 'Courier New', Courier, monospace;
+body {
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #808080;
-    color: #333;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #808080; /* n background for the page */
+    color: white;
 }
 
-.content {
-    text-align: center;
+.content-wrapper {
+    background-color: black; /* Black box for contrast */
+    padding: 20px; /* Space inside the black box */
+    border-radius: 10px; /* Optional: Rounds the edges */
+    max-width: 800px; /* Limits width for readability */
+    margin: 20px auto; /* Centers the black box horizontally */
+    text-align: center; /* Centers text inside the box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adds a slight shadow */
 }
 
-.content h1 {
+.content h1, .content p, .content nav {
     margin-bottom: 20px;
-    font-size: 28px;
-}
-
-.content nav {
-    margin: 20px 0;
 }
 
 .content nav a {
-    margin: 0 15px;
+    margin: 0 10px;
     text-decoration: none;
-    color: #ffffff;
-    font-size: 28px;
+    color: #007BFF;
 }
 
 .content nav a:hover {
     text-decoration: underline;
 }
 
-.content p {
-    background-color: black;
-    color: white;
-    padding: 20px;
-    max-width: 800px;
-    margin: 20px auto;
-}
