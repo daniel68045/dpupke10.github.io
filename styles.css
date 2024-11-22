@@ -1,37 +1,38 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Courier New', Courier, monospace;
-    background: url("assets/PW-BG-2.jpeg") no-repeat center center fixed;
-    background-size: cover;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+  background: #36013f;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .content-wrapper {
-    background-color: black;
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 800px;
-    margin: 20px auto;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  background-color: black;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 20px auto;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-.content h1, .content p, .content nav {
-    margin-bottom: 20px;
+.content h1,
+.content p,
+.content nav {
+  margin-bottom: 20px;
 }
 
 .content nav a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
 }
 
 .content nav a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
-
