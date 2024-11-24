@@ -1,23 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projects</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <div class="content-wrapper">
-        <div class="content">
-            <h1>My Projects</h1>
-            <p>This page will showcase my projects.</p>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="resume.html">Resume</a>
-            </nav>
-        </div>
-    </div>
-</body>
-</html>
+      <div class="content">
+        <h1>My Projects</h1>
 
+        <section class="projects">
+          <article class="project">
+            <h3>Online Calendar</h3>
+            <ul>
+              <li>
+                An interactive online calendar full-stack (MERN) application for
+                personal use and collaboration.
+              </li>
+              <li>
+                Features include basic event scheduling, reminders, and
+                real-time updating.
+              </li>
+            </ul>
+          </article>
+
+          <article class="project">
+            <h3>Final Exam Helper</h3>
+            <ul>
+              <li>
+                A study aid leveraging machine learning to analyze lecture notes
+                and identify the most relevant topics for final exam
+                preparation, utilizing a Naive Bayes classifier to tokenize and
+                rank topics as they appear.
+              </li>
+              <li>
+                Incorporates NLTK and Scikit-learn for text preprocessing and
+                modeling.
+              </li>
+            </ul>
+          </article>
+
+          <article class="project">
+            <h3>2048 Game</h3>
+            <ul>
+              <li>
+                A web-deployed version of 2048, integrating MongoDB to increase
+                load capacity and enable features such as undo move and replay.
+              </li>
+              <li>
+                Features a JavaScript and React-based client and an ExpressJS
+                backend.
+              </li>
+            </ul>
+          </article>
+        </section>
+
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="resume.html">Resume</a>
+        </nav>
+      </div>
+    </div>
+  </body>
+</html>
