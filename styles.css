@@ -36,3 +36,15 @@ body {
 .content nav a:hover {
   text-decoration: underline;
 }
+
+.github-link {
+  font-size: 0.9rem;
+  margin-left: 10px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.github-link:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
