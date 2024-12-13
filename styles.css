@@ -2,49 +2,18 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Courier New", Courier, monospace;
-  background: #000000;
-  background-size: cover;
-  color: white;
+  background: #ececec;
+  color: rgb(0, 0, 0);
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 85vh;
+  flex-direction: row;
 }
 
-.content-wrapper {
-  background-color: black;
-  padding: 20px;
-  border-radius: 10px;
-  max-width: 800px;
-  margin: 20px auto;
+.container {
+  margin: 40px auto;
   text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-}
-
-.content h1,
-.content p,
-.content nav {
-  margin-bottom: 20px;
-}
-
-.content nav a {
-  margin: 0 10px;
-  text-decoration: none;
-  color: white;
-}
-
-.content nav a:hover {
-  text-decoration: underline;
-}
-
-.github-link {
-  font-size: 0.9rem;
-  margin-left: 10px;
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.github-link:hover {
-  text-decoration: underline;
-  color: #ffffff;
+  font-size: 2rem;
+  font-weight: bold;
 }
