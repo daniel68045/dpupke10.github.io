@@ -1,2 +1,2 @@
-My [Personal Website](https://dpupke10.site)
+[Personal site](https://dpupke10.site)
 
