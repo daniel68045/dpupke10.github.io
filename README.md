@@ -1,2 +1,2 @@
-My [personal website](https://dpupke10.site)/business card
+[Personal site](https://dpupke10.site)
 
