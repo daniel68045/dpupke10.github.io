@@ -17,3 +17,15 @@ body {
   font-size: 2rem;
   font-weight: bold;
 }
+
+@media (max-width: 768px) {
+  body {
+    flex-direction: row;
+    padding: 20px;
+  }
+
+  .container {
+    font-size: 1.5rem;
+    margin: 20px auto;
+  }
+}
